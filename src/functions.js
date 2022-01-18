@@ -62,7 +62,7 @@ const getNeighbors = (board, row, column) => {
 }
 
 const safeNeighborhood = (board, row, column) => {
-    const safe = (result, neighbor) => result && !neighbor.mined
+    const safes = (result, neighbor) => result && !neighbor.mined
     return getNeighbors(board, row, column).reduce(safes, true)
 }
 
@@ -83,7 +83,7 @@ const openField = (board, row, column) => {
 
 const fields = board => [].concat(...board)
 
-const hasExplosion = board => fields(board).filter(field.exploded).length > 0
+const hasExplosion = board => fields(board).filter(field => field.exploded).length > 0
 
 const pendding = field => (field.mined && !field.flagged) || (!field.mined && !field.opened)
 
