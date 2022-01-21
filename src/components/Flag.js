@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
     flag: {
         position: 'absolute',
         height: 5,
-        width: 2,
+        width: 6,
         backgroundColor: '#F22',
         marginLeft: 3
     },
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
         marginLeft: 7,
         marginTop: 10,
     },
-    base1: {
+    base2: {
         position: 'absolute',
         height: 2,
         width: 10,
@@ -47,9 +47,9 @@ const styles = StyleSheet.create({
         marginTop: 12,
     },
     flagpoleBigger: {
-        height: 10,
-        width: 14,
-        marginLeft: 3,
+        height: 28,
+        width: 4,
+        marginLeft: 16,
     },
     flagBigger: {
         height: 10,
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     base2Bigger: {
         height: 4,
         width: 20,
-        marginTop: 8,
-        marginLeft: 24,
+        marginTop: 24,
+        marginLeft: 8,
     }
 })
