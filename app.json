@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "mine-sweeper",
+    "name": "Mine Sweeper",
     "slug": "mine-sweeper",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fabiotowers.minesweeper"
     },
     "web": {
       "favicon": "./assets/favicon.png"
