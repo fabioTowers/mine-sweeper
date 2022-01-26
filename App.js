@@ -1,4 +1,5 @@
-import { StyleSheet, Text, View, Alert } from 'react-native';
+import { StyleSheet, View, Alert } from 'react-native';
+import React from 'react';
 import { Component } from 'react/cjs/react.production.min';
 import params from './src/params';
 import MineField from './src/components/MineField';
