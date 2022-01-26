@@ -24,4 +24,4 @@ Encontre as minas espalhadas pelo campo e marque com as bandeiras para ganhar o 
 
 Você pode testar esse aplicativo em seu dispositivo Android ou iOS utilizando o aplicativo Expo Go, da plataforma Expo. Com o Expo Go instalado basta acessar este [link](exp://exp.host/@fabiotowers/mine-sweeper) no dispositivo ou scanear o QR Code que aparece.
 
-Nos dispositivos Android também é possível fazer o download do arquivo instalação [neste link](https://github.com/fabioTowers/mine-sweeper/releases/download/v1.0/mine-sweeper.apk).
+Nos dispositivos Android também é possível fazer o download do arquivo instalação [neste link](https://github.com/fabioTowers/mine-sweeper/releases/download/v1.1/mine-sweeper-v1-1.apk).
